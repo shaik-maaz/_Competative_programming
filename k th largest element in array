@@ -1,0 +1,17 @@
+import heapq
+class Solution:
+    def findKthLargest(self, arr: List[int], k: int) -> int:
+        arr1=[-num for num in arr]
+        heapq.heapify(arr1)
+        for i in range (k):
+            d=heapq.heappop(arr1)
+        return -1*d 
+
+
+
+
+
+
+
+
+        
